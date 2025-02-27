@@ -4,7 +4,6 @@ import { AppContext } from "../context/AppContext";
 const Result = () => {
   const { resultImage, image } = useContext(AppContext);
 
-  // Debugging: Log the values of image and resultImage
   console.log("Image:", image);
   console.log("Result Image:", resultImage);
 

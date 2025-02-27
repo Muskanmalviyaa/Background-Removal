@@ -67,7 +67,6 @@ const AppContextProvider = (props) => {
 
             // Navigate to /buy-credit if creditBalance is 0
             if (data.creditBalance === 0) {
-                console.log("Credit balance is 0. Navigating to /buy-credit..."); // Debugging
                 navigate("/buy-credit");
             }
         }
