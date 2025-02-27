@@ -51,7 +51,7 @@ const Result = () => {
         {/* Button div */}
         {resultImage && (
           <div className="flex justify-center sm:justify-end items-center flex-wrap gap-4 mt-6">
-            <button className="px-8 py-2.5 text-violet-600 text-sm border border-violet-600 rounded-full hover:scale-105 transition-all duration-600">
+            <button onClick={() => (window.location.href = '/')} className="px-8 py-2.5 text-violet-600 text-sm border border-violet-600 rounded-full hover:scale-105 transition-all duration-600">
               Try another image
             </button>
             <a
