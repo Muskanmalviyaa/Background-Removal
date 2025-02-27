@@ -1,4 +1,4 @@
-import BgSlider from '../components/bgSlider'
+import BgSlider from '../components/BgSlider'
 import Header from '../components/Header'
 import Step from '../components/Step'
 import Testimonials from '../components/Testimonials'
